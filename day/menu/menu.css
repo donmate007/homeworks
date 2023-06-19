@@ -1,0 +1,31 @@
+body{
+    background-image: url(menu/menus\ back.jpg);
+    background-size: 30cm;
+    font-family: 'Geologica', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.bigmac{
+    padding-left: 4cm;
+    padding-top: 2cm;
+    width: 12cm;
+    height: 10cm;
+}
+
+table{
+    align-items: normal;
+    margin-top: 2cm;
+    margin-left: 3cm;
+    color: black;
+    border-collapse: collapse;
+}
+
+td{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 800;
+}

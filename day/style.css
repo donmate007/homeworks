@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0 ,0, 0, 0.6)), url(images/background\ image.jpg);
+    background-size: cover;
+    font-family: 'Geologica', sans-serif;
+}
+
+.header{
+    display: flex;
+}
+
+.log{
+    height: 3cm;
+    width: 4cm;
+    padding-left: 5cm;
+    padding-top: 15px;
+}
+
+.navigation{
+    margin-left: 3cm;
+    padding-top: 1cm;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-large;
+    padding-left: 1cm;
+    transition-delay: 2s;
+}
+
+h1{
+    color: #fff;
+    margin-top: 2.5cm;
+    margin-left: 4cm;
+    font-size: 45px;
+}
+
+.h1iframe{
+    display: flex;
+    margin-left: 2cm;
+}
