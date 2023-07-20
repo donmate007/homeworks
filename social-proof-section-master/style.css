@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--background-color);
+}
+
+:root{
+    --buyer:hsl(300, 63%, 34%);
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-size: medium;
+        line-height: normal;
+    }
+    img{
+        font-size: medium;
+        height: 20px;
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondd{
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        height: fit-content;
+    }
+}
+
+
+.browser{
+    display: flex;
+}
+
+.first{
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+
+p{
+    font-size: 45px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+}
+
+.second{
+    line-height: 1.5;
+    margin-top: 30px;
+    color: hsl(303, 10%, 53%);
+    font-size: medium;
+    font-size: 18px;
+}
+
+.secondd{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.calton{
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+    background-color: var(--buyer);
+}
+
+.cal{
+    display: flex;
+}
+
+.stars{
+    width: 20px;
+    height: 20px;
+}
+
+.irene{
+    margin-left: 5%;
+    margin-top: 6%;
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+    background-color: var(--buyer);
+}
+
+.ire{
+    display: flex;
+}
+
+.anne{
+    margin-left: 5%;
+    margin-top: 7%;
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+    background-color: var(--buyer);
+}
+
+.an{
+    display: flex;
+}
+
+.below{
+    display: flex;
+}
